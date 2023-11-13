@@ -12,7 +12,8 @@ void my_dgemv(int n, double *A, double *x, double *y)
   int rowOffset, temp, accumulation = 0;
   for (int i = 0; i < n; i++)
   {
-    temp, accumulation = 0;
+    temp = 0;
+    accumulation = 0;
     rowOffset = i * n;
     for (int j = 0; j < n; j++)
     {
