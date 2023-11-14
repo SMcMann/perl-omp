@@ -20,6 +20,6 @@ void my_dgemv(int n, double *A, double *x, double *y)
       temp = A[rowOffset + j] * x[j];
       accumulation+= temp;
     }
-    y[i] = accumulation;
+    y[i] += accumulation;
   }
 }
