@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gator/programming/perl-omp-1/benchmark.cpp" "CMakeFiles/benchmark.dir/benchmark.cpp.o" "gcc" "CMakeFiles/benchmark.dir/benchmark.cpp.o.d"
+  "/global/homes/s/scottm/assignment/perl-omp/benchmark.cpp" "CMakeFiles/benchmark.dir/benchmark.cpp.o" "gcc" "CMakeFiles/benchmark.dir/benchmark.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,1 +1,7 @@
-/home/gator/programming/perl-omp-1/dgemv-vectorized.cpp:12:1: note: ***** Analysis failed with vector mode VOID
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:14:21: missed: couldn't vectorize loop
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:19:29: missed: not vectorized: complicated access pattern.
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:18:23: optimized: loop vectorized using 32 byte vectors
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:18:23: optimized: loop vectorized using 16 byte vectors
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:24:1: note: ***** Analysis failed with vector mode V4DF
+/global/homes/s/scottm/assignment/perl-omp/dgemv-vectorized.cpp:24:1: note: ***** Skipping vector mode V32QI, which would repeat the analysis for V4DF
